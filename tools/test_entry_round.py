@@ -23,13 +23,15 @@ class EntryTests(unittest.TestCase):
         io=self.io(['inside','inside'])
         observe=Mock(side_effect=[report(ready=True,charge=True),report(confirm=True)])
         enter_inside(io,observe)
-        self.assertEqual(io.click.call_count,2)
+        io.click.assert_called_once_with((140,215),button=1)
+        self.assertEqual(observe.call_count,1)
 
     def test_charges_until_ready_then_enters(self):
         io=self.io([None,'inside','inside'])
         observe=Mock(side_effect=[report(charge=True),report(ready=True),report(confirm=True)])
         enter_inside(io,observe)
-        self.assertEqual(io.click.call_count,3)
+        self.assertEqual(io.click.call_count,2)
+        self.assertEqual(io.click.call_args.kwargs,{'button':1})
 
     def test_charge_limit(self):
         io=Mock()

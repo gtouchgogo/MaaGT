@@ -29,3 +29,10 @@ class RoundSessionTests(unittest.TestCase):
         for count in (0, 101, True, 3.5, '3'):
             with self.assertRaises(ValueError):
                 RoundSessions().begin(7, count)
+
+    def test_continuous_has_no_round_limit(self):
+        sessions = RoundSessions()
+        sessions.begin(7, None, continuous=True)
+        for _ in range(101):
+            self.assertEqual(sessions.finish(7), ['EnterInsideForRound'])
+        self.assertEqual(sessions.finish(8), [])

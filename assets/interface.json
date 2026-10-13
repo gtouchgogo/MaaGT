@@ -36,6 +36,7 @@
         ]
     },
     "task": [
+        {"name": "持续运行：直到停止或异常", "entry": "ContinuousRoundsTest"},
         {"name": "连续测试：3轮后停止", "entry": "BoundedRoundsTest"},
         {"name": "完整单轮：进入、拾取、返回选择器", "entry": "FullRoundTest"},
         {"name": "选择首领并进入Inside测试", "entry": "EnterInsideOnlyTest"},
