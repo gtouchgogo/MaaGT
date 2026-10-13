@@ -1,0 +1,77 @@
+{
+    "MinimapTest": {
+        "pre_delay": 0,
+        "post_delay": 0,
+        "next": [
+            "FindMinimapChest",
+            "FindMinimapAltar"
+        ],
+        "timeout": 10000,
+        "rate_limit": 400
+    },
+    "FindMinimapChest": {
+        "recognition": "TemplateMatch",
+        "template": "minimap_chest.png",
+        "roi": [
+            1600,
+            50,
+            301,
+            287
+        ],
+        "threshold": 0.8,
+        "pre_delay": 0,
+        "post_delay": 0,
+        "action": "DoNothing",
+        "next": [
+            "ChestRemembered"
+        ]
+    },
+    "FindMinimapAltar": {
+        "recognition": "TemplateMatch",
+        "template": [
+            "minimap_altar.png",
+            "minimap_altar_overlap.png"
+        ],
+        "roi": [
+            1600,
+            50,
+            301,
+            287
+        ],
+        "threshold": 0.8,
+        "pre_delay": 0,
+        "post_delay": 0,
+        "action": "DoNothing",
+        "next": [
+            "AltarRemembered"
+        ]
+    },
+    "ChestRemembered": {
+        "recognition": "DirectHit",
+        "pre_delay": 0,
+        "post_delay": 0,
+        "action": "Screencap",
+        "filename": "chest_remembered",
+        "next": []
+    },
+    "AltarRemembered": {
+        "recognition": "DirectHit",
+        "pre_delay": 0,
+        "post_delay": 0,
+        "action": "Screencap",
+        "filename": "altar_remembered",
+        "next": []
+    },
+    "ApproachTest": {
+        "recognition": "DirectHit",
+        "action": "LongPressKey",
+        "key": 87,
+        "duration": 1000,
+        "pre_delay": 0,
+        "post_delay": 0,
+        "next": [
+            "MinimapTest"
+        ],
+        "timeout": 3000
+    }
+}

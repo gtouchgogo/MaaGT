@@ -1,0 +1,18 @@
+{
+    "OutsideReturnTest": {
+        "recognition": "DirectHit", "action": "DoNothing", "pre_delay": 0, "post_delay": 3000,
+        "next": ["OutsideReturnToSelector"]
+    },
+    "OutsideReturnToSelector": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "ReturnOutsideToSelector",
+        "pre_delay": 0, "post_delay": 0, "next": ["SelectorRoundComplete"]
+    },
+    "SelectorRoundComplete": {
+        "recognition": "DirectHit", "action": "Screencap", "filename": "selector_round_complete",
+        "pre_delay": 0, "post_delay": 0, "next": ["FinishRoundSession"]
+    },
+    "ExitAndReturnToSelector": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "ExitThroughPortal",
+        "pre_delay": 0, "post_delay": 0, "next": ["OutsideReturnToSelector"]
+    }
+}

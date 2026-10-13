@@ -449,6 +449,7 @@ install
 
 # Tools
 tools/ImageCropper/**/*.png
-
+assets/resource/image/*.png
 config
 debug
+

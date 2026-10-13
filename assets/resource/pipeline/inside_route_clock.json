@@ -1,0 +1,50 @@
+{
+    "InsideRouteClock": {
+        "recognition": "DirectHit",
+        "action": "Custom",
+        "custom_action": "ReplayRecordedRoute",
+        "custom_action_param": {"route": "routes/inside.json", "monitor_minimap": true},
+        "pre_delay": 3000,
+        "post_delay": 0,
+        "next": ["InsideTargetUncertain"]
+    },
+    "InsideChestSeen": {
+        "recognition": "DirectHit", "action": "Screencap",
+        "filename": "inside_chest_seen", "pre_delay": 0, "post_delay": 0,
+        "next": ["FindChestForLoot"], "timeout": 1000, "rate_limit": 100
+    },
+    "FindChestForLoot": {
+        "recognition": "Custom", "custom_recognition": "WorldChestYOLO",
+        "action": "Custom", "custom_action": "ClickWorldChestOnce",
+        "pre_delay": 0, "post_delay": 5000,
+        "next": ["PickChestLoot"]
+    },
+    "PickChestLoot": {
+        "recognition": "DirectHit", "action": "Custom",
+        "custom_action": "PickPinkOrangeLoot",
+        "pre_delay": 0, "post_delay": 0,
+        "next": ["ExitAndReturnToSelector"]
+    },
+    "InsideAltarSeen": {
+        "recognition": "DirectHit", "action": "Screencap",
+        "filename": "inside_altar_seen", "pre_delay": 0, "post_delay": 0,
+        "next": ["ActivateAltarForLoot"]
+    },
+    "ActivateAltarForLoot": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "ActivateWorldAltar",
+        "pre_delay": 0, "post_delay": 0, "next": ["PickChestLoot"]
+    },
+    "InsideNoTarget": {
+        "recognition": "DirectHit", "action": "DoNothing",
+        "pre_delay": 0, "post_delay": 0, "next": ["ExitAndReturnToSelector"]
+    },
+    "InsideTargetUncertain": {
+        "recognition": "DirectHit", "action": "Screencap",
+        "filename": "inside_target_uncertain", "pre_delay": 0, "post_delay": 0,
+        "next": ["AbortUncertainInsideNode"]
+    },
+    "AbortUncertainInsideNode": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "AbortUncertainInside",
+        "pre_delay": 0, "post_delay": 0, "next": []
+    }
+}

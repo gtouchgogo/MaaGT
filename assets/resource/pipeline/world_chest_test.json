@@ -1,0 +1,11 @@
+{
+    "WorldChestTest": {
+        "recognition": "DirectHit", "action": "DoNothing",
+        "pre_delay": 0, "post_delay": 0,
+        "next": ["FindWorldChestYOLO"], "timeout": 1000, "rate_limit": 100
+    },
+    "FindWorldChestYOLO": {
+        "recognition": "Custom", "custom_recognition": "WorldChestYOLO",
+        "action": "DoNothing", "pre_delay": 0, "post_delay": 0, "next": []
+    }
+}

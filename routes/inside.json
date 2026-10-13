@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "screen": [
+    3840,
+    2160
+  ],
+  "window": "Last Epoch",
+  "duration": 9.647847,
+  "events": [
+    {
+      "t": 0.000207,
+      "kind": "move",
+      "x": 2745,
+      "y": 761
+    },
+    {
+      "t": 0.283785,
+      "kind": "key",
+      "vk": 68,
+      "down": true
+    },
+    {
+      "t": 0.627875,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 0.77588,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 0.931814,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 1.155914,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 1.320315,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 1.587971,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 1.719839,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 1.891908,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 1.995786,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 2.235875,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 2.391854,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 2.679839,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 2.851933,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 3.151896,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 3.267887,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 3.607978,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    },
+    {
+      "t": 3.699948,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 5.583805,
+      "kind": "key",
+      "vk": 68,
+      "down": false
+    },
+    {
+      "t": 7.515773,
+      "kind": "key",
+      "vk": 68,
+      "down": true
+    },
+    {
+      "t": 7.756089,
+      "kind": "key",
+      "vk": 68,
+      "down": false
+    },
+    {
+      "t": 9.472076,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    }
+  ]
+}

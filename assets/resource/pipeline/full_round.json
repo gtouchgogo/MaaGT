@@ -1,0 +1,23 @@
+{
+    "FullRoundTest": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "ReturnOutsideToSelector",
+        "pre_delay": 3000, "post_delay": 0, "next": ["EnterInsideForRound"]
+    },
+    "EnterInsideForRound": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "EnterInsideFromSelector",
+        "pre_delay": 0, "post_delay": 0, "next": ["InsideRouteForRound"]
+    },
+    "InsideRouteForRound": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "ReplayRecordedRoute",
+        "custom_action_param": {"route": "routes/inside.json", "monitor_minimap": true},
+        "pre_delay": 0, "post_delay": 0, "next": ["InsideTargetUncertain"]
+    },
+    "EnterInsideOnlyTest": {
+        "recognition": "DirectHit", "action": "Custom", "custom_action": "EnterInsideFromSelector",
+        "pre_delay": 3000, "post_delay": 0, "next": ["InsideEntryObservation"]
+    },
+    "InsideEntryObservation": {
+        "recognition": "DirectHit", "action": "Screencap", "filename": "inside_entry_confirmed",
+        "pre_delay": 0, "post_delay": 0, "next": []
+    }
+}

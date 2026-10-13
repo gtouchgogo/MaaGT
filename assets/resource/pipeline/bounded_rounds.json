@@ -1,0 +1,19 @@
+{
+    "BoundedRoundsTest": {
+        "recognition": "DirectHit",
+        "action": "Custom",
+        "custom_action": "BeginBoundedRounds",
+        "custom_action_param": {"rounds": 3},
+        "pre_delay": 3000,
+        "post_delay": 0,
+        "next": ["FullRoundTest"]
+    },
+    "FinishRoundSession": {
+        "recognition": "DirectHit",
+        "action": "Custom",
+        "custom_action": "FinishBoundedRound",
+        "pre_delay": 0,
+        "post_delay": 0,
+        "next": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "WorldChestClickTest": {
+        "recognition": "DirectHit", "action": "DoNothing",
+        "pre_delay": 0, "post_delay": 3000,
+        "next": ["FindAndClickWorldChest"], "timeout": 1000, "rate_limit": 100
+    },
+    "FindAndClickWorldChest": {
+        "recognition": "Custom", "custom_recognition": "WorldChestYOLO",
+        "action": "Custom", "custom_action": "ClickWorldChestOnce",
+        "pre_delay": 0, "post_delay": 5000,
+        "next": ["WorldChestClickObservation"]
+    },
+    "WorldChestClickObservation": {
+        "recognition": "DirectHit", "action": "Screencap",
+        "filename": "world_chest_after_one_click",
+        "pre_delay": 0, "post_delay": 0, "next": []
+    }
+}

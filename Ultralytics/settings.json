@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "G:\\projects\\MaaGT\\MaaGT\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "3cd9617753490d0ce20341d652fdb4d2015a6a06514617bf861dbf6f32dae24f",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

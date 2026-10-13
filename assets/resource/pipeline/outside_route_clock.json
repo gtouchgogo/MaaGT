@@ -1,0 +1,13 @@
+{
+    "OutsideRouteClock": {
+        "recognition": "DirectHit",
+        "action": "Custom",
+        "custom_action": "ReplayRecordedRoute",
+        "custom_action_param": {
+            "route": "routes/outside.json"
+        },
+        "pre_delay": 3000,
+        "post_delay": 0,
+        "next": []
+    }
+}

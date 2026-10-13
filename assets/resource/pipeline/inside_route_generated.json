@@ -1,0 +1,272 @@
+{
+  "InsideRoute": {
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "pre_delay": 0,
+    "post_delay": 284,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_000"
+    ]
+  },
+  "InsideRoute_000": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 68,
+    "pre_delay": 0,
+    "post_delay": 344,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_001"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_001": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 148,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_002"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_002": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 156,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_003"
+    ]
+  },
+  "InsideRoute_003": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 224,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_004"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_004": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 164,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_005"
+    ]
+  },
+  "InsideRoute_005": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 268,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_006"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_006": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 132,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_007"
+    ]
+  },
+  "InsideRoute_007": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 172,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_008"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_008": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 104,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_009"
+    ]
+  },
+  "InsideRoute_009": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 240,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_010"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_010": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 156,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_011"
+    ]
+  },
+  "InsideRoute_011": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 288,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_012"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_012": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 172,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_013"
+    ]
+  },
+  "InsideRoute_013": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 300,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_014"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_014": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 116,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_015"
+    ]
+  },
+  "InsideRoute_015": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 340,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_016"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_016": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 92,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_017"
+    ]
+  },
+  "InsideRoute_017": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 1884,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_018"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_018": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 68,
+    "pre_delay": 0,
+    "post_delay": 1932,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_019"
+    ]
+  },
+  "InsideRoute_019": {
+    "recognition": "DirectHit",
+    "action": "KeyDown",
+    "key": 68,
+    "pre_delay": 0,
+    "post_delay": 240,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_020"
+    ],
+    "auto_up": true
+  },
+  "InsideRoute_020": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 68,
+    "pre_delay": 0,
+    "post_delay": 1716,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_021"
+    ]
+  },
+  "InsideRoute_021": {
+    "recognition": "DirectHit",
+    "action": "KeyUp",
+    "key": 87,
+    "pre_delay": 0,
+    "post_delay": 0,
+    "rate_limit": 0,
+    "next": [
+      "InsideRoute_Finished"
+    ]
+  },
+  "InsideRoute_Finished": {
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "pre_delay": 0,
+    "post_delay": 0,
+    "next": []
+  }
+}

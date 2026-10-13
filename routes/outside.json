@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "screen": [
+    3840,
+    2160
+  ],
+  "window": "Last Epoch",
+  "duration": 2.996056,
+  "events": [
+    {
+      "t": 0.000305,
+      "kind": "move",
+      "x": 893,
+      "y": 798
+    },
+    {
+      "t": 0.39637,
+      "kind": "key",
+      "vk": 68,
+      "down": true
+    },
+    {
+      "t": 0.444328,
+      "kind": "key",
+      "vk": 87,
+      "down": true
+    },
+    {
+      "t": 2.248328,
+      "kind": "key",
+      "vk": 68,
+      "down": false
+    },
+    {
+      "t": 2.896045,
+      "kind": "key",
+      "vk": 87,
+      "down": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "CaptureTest": {
+        "recognition": "DirectHit",
+        "action": "Screencap",
+        "filename": "last_epoch_capture",
+        "next": []
+    }
+}
